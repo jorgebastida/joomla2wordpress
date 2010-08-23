@@ -10,9 +10,9 @@ def migrate_users():
     
     
     joom_cursor.execute ("SELECT * FROM jos_users")
-    row = joom_cursor.fetchone()
-    for r in row:
-        print r
+    result_set = joom_cursor.fetchall()
+    for row in result_set:
+       print row
         
         
     wp_cursor.close()
