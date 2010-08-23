@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python
 from users import migrate_users
 
 def main():
