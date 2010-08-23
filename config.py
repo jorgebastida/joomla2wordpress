@@ -1,11 +1,11 @@
-JOOMLA_DB = 'administracionpublica' #Joomla database Name
-JOOMLA_USER = 'root'
-JOOMLA_PASS = 'neoweb'
-JOOMLA_HOST = '192.168.10.32'
-JOOMLA_PREFIX = 'jos_'
+JOOMLA_DB = '' #Joomla database Name
+JOOMLA_USER = ''
+JOOMLA_PASS = ''
+JOOMLA_HOST = ''
+JOOMLA_PREFIX = ''
 
-WORDPRESS_DB = 'administracionpublica'
-WORDPRESS_USER = 'root'
-WORDPRESS_PASS = 'neoweb'
-WORDPRESS_HOST = '192.168.10.32'
-WORDPRESS_PREFIX = 'wp_'
+WORDPRESS_DB = ''
+WORDPRESS_USER = ''
+WORDPRESS_PASS = ''
+WORDPRESS_HOST = ''
+WORDPRESS_PREFIX = ''
