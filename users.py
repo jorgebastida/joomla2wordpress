@@ -10,7 +10,7 @@ def migrate_users():
     
     
     joom_cursor.execute ("SELECT * FROM jos_users")
-    row = cursor.fetchone()
+    row = joom_cursor.fetchone()
     for r in row:
         print r
         
