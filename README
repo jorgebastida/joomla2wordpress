@@ -1,1 +1,33 @@
-Unstable Version, work in progress.
+Migrate Joomla 1.0.2 to Wordpress 3.0.1
+
+Usage:
+    - Backup your Joomla and Wordpress Databases (Be aware!)
+    - Download the script
+    - Edit config.py to add your Joomla and Wordpress Username, password, host etc... 
+    - Execute it: python joomla2wordpress.py
+
+This script should work in older versions of Wordpress(Above 2.0) and newest versions of Joomla but it's not tested.
+
+Migrated data:
+    - Users
+        - username
+        - password
+        - email
+        - role
+        
+    - Categories
+        - Name
+        - Slug (created)
+    
+    - Posts
+        - Title
+        - Slug (created)
+        - Content
+        - Author
+        - Category
+        - Created
+        - etc...
+
+Future:
+    - Comments
+    
